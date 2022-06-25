@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仿FBI控制台输出</title>
+</head>
+
+<body>
+    <script>
+        window.onload = function () {
+            console.log(`                                            
+%c                                                                                                                                  
+                                                   %c FBI WARNING %c                                                      
+                                                                                                                                  
+%c      According to the federal law, anyone who copies, distributes           
+      or publicly displays a copyrighted film work without authorization     
+      can be punished severely by civil or criminal penalties.The FBI is     
+      responsible for investigating complaints of copyright infringement.    
+                    (Title 17, 506 U.S. Code)                                
+                                                                             
+
+`,
+
+'background: #000; font-size: 18px; font-family: monospaces;',
+'background: #f33; font-size: 18px; font-family: monospaces; color: #eee; text-shadow:0 0 1px #fff;',
+'background: #000; font-size: 18px; font-family: monospaces; ',
+'background: #000; font-size: 18px; font-family: monospace; color: #ddd; text-shadow:0 0 2px #fff;'
+            )
+        }
+    </script>
+</body>
+
+</html>
